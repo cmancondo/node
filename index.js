@@ -4,18 +4,18 @@ var request = require('request')
 var app = express()
 var mqtt = require('mqtt');
 // Your Channel access token (long-lived) 
-const CH_ACCESS_TOKEN = '';
+const CH_ACCESS_TOKEN = 'uoGhuxeV3tgSMbNCyEHE3Qh4n0rREDpBEJEw5DxNPh9qEwf6GaPqubgSv9fhlUPmVGYcIMna0ELvI8uIMpNcOGS36XDIxFcAiL7iRNQQ05QeaoCSdF2Kh/ECmeaP6voCkw1ohwGCsI8TVV36ylk66wdB04t89/1O/w1cDnyilFU=';
 // MQTT Host
-var mqtt_host = 'mqtt://m15.cloudmqtt.com';
+var mqtt_host = 'tailor.cloudmqtt.com';
 // MQTT Topic
-var mqtt_topic = '/ESP32';
+var mqtt_topic = '/cman';
 // MQTT Config
 var options = {
-    port: 15443,
-    host: 'mqtt://m15.cloudmqtt.com',
+    port: 11317,
+    host: 'tailor.cloudmqtt.com',
     clientId: 'mqttjs_' + Math.random().toString(16).substr(2, 8),
-    username: 'mqttuser',
-    password: 'mqttpass',
+    username: 'pjdtuugf',
+    password: 'lPN0BeSA2kGL',
     keepalive: 60,
     reconnectPeriod: 1000,
     protocolId: 'MQIsdp',
